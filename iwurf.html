@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="Bilder/logo.png" />
+    <script src="script.js" async></script>
+    <link rel="stylesheet" href="general_settings.css">
+    <link rel="stylesheet" href="sidebar.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="würfe.css">
+    <link rel="stylesheet" href="dropdown.css">
+    <link rel="stylesheet" href="dropdown2.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <title>Von den Mini Royals</title>
+</head>
+
+<body>
+    <header>
+        <div class="dropdown">
+            <ul>
+                <li><a href="awurf.html">A-Wurf</a></li>
+                <li><a href="bwurf.html">B-Wurf</a></li>
+                <li><a href="cwurf.html">C-Wurf</a></li>
+                <li><a href="dwurf.html">D-Wurf</a></li>
+                <li><a href="ewurf.html">E-Wurf</a></li>
+                <li><a href="fwurf.html">F-Wurf</a></li>
+                <li><a href="gwurf.html">G-Wurf</a></li>
+                <li><a href="hwurf.html">H-Wurf</a></li>
+                <li id="active"><a href="iwurf.html">I-Wurf</a></li>
+                <li><a href="jwurf.html">J-Wurf</a></li>
+                <li><a href="kwurf.html">K-Wurf</a></li>
+                <li><a href="lwurf.html">L-Wurf</a></li>
+            </ul>
+        </div>
+        <div class="header_content">
+            <nav>
+                <span onclick="showSidebar()" class="material-symbols-rounded">menu</span>
+                <ul>
+                    <li><a href="index.html">Startseite</a></li>
+                    <li><a href="rattler.html">Prager Rattler</a></li>
+                    <li><a href="rudel.html">Das Rudel</a></li>
+                    <li><a href="galerie.html">Galerie</a></li>
+                    <li id="dropdown" onclick="showDropdown()">
+                        <p style="color: var(--extra_color)">Würfe</p>
+                    </li>
+                    <li><a href="verkauf.html">Welpen aktuell zu verkaufen</a></li>
+                </ul>
+                <ul class="sidebar">
+                    <span onclick="closeSidebar()" class="material-symbols-rounded">close</span>
+                    <li><a href="index.html">Startseite</a></li>
+                    <li><a href="rattler.html">Prager Rattler</a></li>
+                    <li><a href="rudel.html">Das Rudel</a></li>
+                    <li><a href="galerie.html">Galerie</a></li>
+                    <li><a href="verkauf.html">Welpen aktuell zu verkaufen</a></li>
+                    <li id="dropdown2" onclick="showDropdown2()">
+                        <p style="color: var(--extra_color)">Würfe &nbsp; ﹀</p>
+                    </li>
+                    <div class="dropdown2_active">
+                        <li><a href="awurf.html">A</a></li>
+                        <li><a href="bwurf.html">B</a></li>
+                        <li><a href="cwurf.html">C</a></li>
+                        <li><a href="dwurf.html">D</a></li>
+                        <li><a href="ewurf.html">E</a></li>
+                        <li><a href="fwurf.html">F</a></li>
+                        <li><a href="gwurf.html">G</a></li>
+                        <li><a href="hwurf.html">H</a></li>
+                        <li id="active"><a href="iwurf.html">I</a></li>
+                        <li><a href="jwurf.html">J</a></li>
+                        <li><a href="kwurf.html">K</a></li>
+                        <li><a href="lwurf.html">L</a></li>
+                    </div>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!--section 1-->
+    <div class="info" id="info_head">
+        <h1>I-Wurf</h1>
+        <h2>27.09.2022 - Verpaarung Bella von den little Fairies / Star from Amber Pepper</h2>
+        <p>In einer Blitzgeburt landeten 3 kleine Rattler Babys heute Morgen. Mama und Babys sind alle wohlauf.</p>
+    </div>
+    <figure id="pic_center">
+        <div class="fig">
+            <img src="Bilder/iwurf1.jpg">
+        </div>
+    </figure>
+    <!--section 2-->
+    <div class="info">
+        <h2>Infinity</h2>
+        <p>Hündin 07.50 Uhr | Geburtsgewicht 145g | Black & Tan Merle Kurzhaar </p>
+    </div>
+    <span class="four">
+        <figure>
+            <div class="fig">
+                <img src="Bilder/iwurf2.jpg">
+            </div>
+            <div class="fig">
+                <img src="Bilder/iwurf3.jpg">
+                <figcaption>Infinity mit 5 Wochen</figcaption>
+            </div>
+            <div class="fig">
+                <img src="Bilder/iwurf4.jpg">
+            </div>
+            <div class="fig">
+                <img src="Bilder/iwurf5.jpg">
+            </div>
+        </figure>
+    </span>
+    <!--section 3-->
+    <div class="info">
+        <h2>Ice</h2>
+        <p>Rüde 08.04 Uhr | Geburtsgewicht 118g | Black & Tan Kurzhaar </p>
+    </div>
+    <span class="four">
+        <figure>
+            <div class="fig">
+                <img src="Bilder/iwurf6.jpg">
+            </div>
+            <div class="fig">
+                <img src="Bilder/iwurf7.jpg">
+            </div>
+            <div class="fig">
+                <img src="Bilder/iwurf8.jpg">
+                <figcaption>Ice mit 5 Wochen</figcaption>
+            </div>
+            <div class="fig">
+                <img src="Bilder/iwurf8.jpg">
+            </div>
+        </figure>
+    </span>
+    <!--section 4-->
+    <div class="info">
+        <h2>Ileyga </h2>
+        <p>Rüde geboren am 27.09.2022 um 08.55 Uhr | Geburtsgewicht 164g | Schoko & Tan Merle Kurzhaar </p>
+    </div>
+    <span class="four">
+        <figure>
+            <div class="fig">
+                <img src="Bilder/iwurf9.jpg">
+            </div>
+            <div class="fig">
+                <img src="Bilder/iwurf10.jpg">
+            </div>
+            <div class="fig">
+                <img src="Bilder/iwurf11.jpg">
+                <figcaption>Ileyga mit 5 Wochen</figcaption>
+            </div>
+            <div class="fig">
+                <img src="Bilder/iwurf12.jpg">
+            </div>
+        </figure>
+    </span>
+    <footer>
+        <div class="footer_links">
+            <a href="impressum.html">Impressum</a><br>
+            <a href="datenschutz.html">Datenschutzerklärung</a>
+            <p>Copyright 2023 "Von den Mini Royals"</p>
+        </div>
+    </footer>
+</body>
+
+</html>

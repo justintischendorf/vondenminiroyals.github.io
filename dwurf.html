@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="Bilder/logo.png" />
+    <script src="script.js" async></script>
+    <link rel="stylesheet" href="general_settings.css">
+    <link rel="stylesheet" href="sidebar.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="würfe.css">
+    <link rel="stylesheet" href="dropdown.css">
+    <link rel="stylesheet" href="dropdown2.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <title>Von den Mini Royals</title>
+</head>
+
+<body>
+    <header>
+        <div class="dropdown">
+            <ul>
+                <li><a href="awurf.html">A-Wurf</a></li>
+                <li><a href="bwurf.html">B-Wurf</a></li>
+                <li><a href="cwurf.html">C-Wurf</a></li>
+                <li id="active"><a href="dwurf.html">D-Wurf</a></li>
+                <li><a href="ewurf.html">E-Wurf</a></li>
+                <li><a href="fwurf.html">F-Wurf</a></li>
+                <li><a href="gwurf.html">G-Wurf</a></li>
+                <li><a href="hwurf.html">H-Wurf</a></li>
+                <li><a href="iwurf.html">I-Wurf</a></li>
+                <li><a href="jwurf.html">J-Wurf</a></li>
+                <li><a href="kwurf.html">K-Wurf</a></li>
+                <li><a href="lwurf.html">L-Wurf</a></li>
+            </ul>
+        </div>
+        <div class="header_content">
+            <nav>
+                <span onclick="showSidebar()" class="material-symbols-rounded">menu</span>
+                <ul>
+                    <li><a href="index.html">Startseite</a></li>
+                    <li><a href="rattler.html">Prager Rattler</a></li>
+                    <li><a href="rudel.html">Das Rudel</a></li>
+                    <li><a href="galerie.html">Galerie</a></li>
+                    <li id="dropdown" onclick="showDropdown()">
+                        <p style="color: var(--extra_color)">Würfe</p>
+                    </li>
+                    <li><a href="verkauf.html">Welpen aktuell zu verkaufen</a></li>
+                </ul>
+                <ul class="sidebar">
+                    <span onclick="closeSidebar()" class="material-symbols-rounded">close</span>
+                    <li><a href="index.html">Startseite</a></li>
+                    <li><a href="rattler.html">Prager Rattler</a></li>
+                    <li><a href="rudel.html">Das Rudel</a></li>
+                    <li><a href="galerie.html">Galerie</a></li>
+                    <li><a href="verkauf.html">Welpen aktuell zu verkaufen</a></li>
+                    <li id="dropdown2" onclick="showDropdown2()">
+                        <p style="color: var(--extra_color)">Würfe &nbsp; ﹀</p>
+                    </li>
+                    <div class="dropdown2_active">
+                        <li><a href="awurf.html">A</a></li>
+                        <li><a href="bwurf.html">B</a></li>
+                        <li><a href="cwurf.html">C</a></li>
+                        <li id="active"><a href="dwurf.html">D</a></li>
+                        <li><a href="ewurf.html">E</a></li>
+                        <li><a href="fwurf.html">F</a></li>
+                        <li><a href="gwurf.html">G</a></li>
+                        <li><a href="hwurf.html">H</a></li>
+                        <li><a href="iwurf.html">I</a></li>
+                        <li><a href="jwurf.html">J</a></li>
+                        <li><a href="kwurf.html">K</a></li>
+                        <li><a href="lwurf.html">L</a></li>
+                    </div>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!--section 1-->
+    <div class="info" id="info_head">
+        <h1>D-Wurf</h1>
+        <h2>26.10.2020 - Verpaarung Angy vom Silbersee / Kena vom Landbach</h2>
+        <p>Am 26.10.2020 erblickten 6 kleine Rattlermädchen das Licht der Welt. Allen Babys und der Mama geht es prima.
+        </p>
+    </div>
+    <figure id="pic_center">
+        <div class="fig">
+            <img src="Bilder/dwurf1.jpg">
+        </div>
+    </figure>
+    <!--section 2-->
+    <div class="info">
+        <h2>Dark Diva</h2>
+        <p>Hündin 19.24 Uhr | Geburtsgewicht 104g | Black & Tan Kurzhaar </p>
+    </div>
+    <figure>
+        <div class="fig">
+            <img src="Bilder/dwurf2.jpg">
+            <figcaption>Dark Diva mit ca. 6 Wochen</figcaption>
+        </div>
+        <div class="fig">
+            <img src="Bilder/dwurf3.jpg">
+            <figcaption>Dark Diva in ihrem neuen zu Hause</figcaption>
+        </div>
+        <div class="fig">
+            <img src="Bilder/dwurf4.jpg">
+        </div>
+    </figure>
+    <!--section 3-->
+    <div class="info" id="info_head">
+        <h2>Destiny</h2>
+        <p>Hündin 21.00 Uhr | Geburtsgewicht 133g | Black & Tan Kurzhaar</p>
+    </div>
+    <figure>
+        <div class="fig">
+            <img src="Bilder/dwurf5.jpg">
+        </div>
+        <div class="fig">
+            <img src="Bilder/dwurf6.jpg">
+            <figcaption>Destiny mit 6 Wochen</figcaption>
+        </div>
+        <div class="fig">
+            <img src="Bilder/dwurf7.jpg">
+            <figcaption>Destiny jetzt Bella in ihrem neuen zu Hause mit Schwester Betty Lou jetzt Sissi aus unserem
+                B-Wurf.</figcaption>
+        </div>
+    </figure>
+    <!--section 4-->
+    <div class="info">
+        <h2>Diomond</h2>
+        <p>Hündin 21.38 Uhr | Geburtsgewicht 89g | Schoko & Tan Kurzhaar</p>
+    </div>
+    <figure>
+        <div class="fig">
+            <img src="Bilder/dwurf8.jpg">
+        </div>
+        <div class="fig">
+            <img src="Bilder/dwurf9.jpg">
+            <figcaption>Diomond mit 6 Wochen</figcaption>
+        </div>
+        <div class="fig">
+            <img src="Bilder/dwurf10.jpg">
+            <figcaption>Diamond jetzt Peanut in ihrem neuen zu Hause.</figcaption>
+        </div>
+    </figure>
+    <!--section 5-->
+    <div class="info">
+        <h2>Darling</h2>
+        <p>Hündin 21.50 Uhr | Geburtsgewicht 77g | Black & Tan Kurzhaar</p>
+    </div>
+    <figure>
+        <div class="fig">
+            <img src="Bilder/dwurf11.jpg">
+        </div>
+        <div class="fig">
+            <img src="Bilder/dwurf12.jpg">
+            <figcaption>Darling mit ca. 6 Wochen</figcaption>
+        </div>
+        <div class="fig">
+            <img src="Bilder/dwurf13.jpg">
+            <figcaption>Darling jetzt Elli im neuen zu Hause in Dänemark.</figcaption>
+        </div>
+    </figure>
+    <!--section 6-->
+    <div class="info">
+        <h2>Dolce Vita</h2>
+        <p>Hündin 22.15 Uhr | Geburtsgewicht 115g | Schoko & Tan Kurzhaar</p>
+    </div>
+    <figure>
+        <div class="fig">
+            <img src="Bilder/dwurf14.jpg">
+        </div>
+        <div class="fig">
+            <img src="Bilder/dwurf15.jpg">
+            <figcaption>Dolce Vita mit ca. 6 Wochen</figcaption>
+        </div>
+        <div class="fig">
+            <img src="Bilder/dwurf16.jpg">
+            <figcaption>Dolce Vita jetzt Naila im neuen zu Hause.</figcaption>
+        </div>
+    </figure>
+    <!--section 7-->
+    <div class="info">
+        <h2>Devlin</h2>
+        <p>Hündin 22.31 Uhr | Geburtsgewicht 133g | Black & Tan Kurzhaar</p>
+    </div>
+    <figure>
+        <div class="fig">
+            <img src="Bilder/dwurf17.jpg">
+        </div>
+        <div class="fig">
+            <img src="Bilder/dwurf18.jpg">
+            <figcaption>Devlin mit ca. 6 Wochen</figcaption>
+        </div>
+        <div class="fig">
+            <img src="Bilder/dwurf19.jpg">
+            <figcaption>Devlin im neuen zu Hause.</figcaption>
+        </div>
+    </figure>
+    <footer>
+        <div class="footer_links">
+            <a href="impressum.html">Impressum</a><br>
+            <a href="datenschutz.html">Datenschutzerklärung</a>
+            <p>Copyright 2023 "Von den Mini Royals"</p>
+        </div>
+    </footer>
+</body>
+
+</html>

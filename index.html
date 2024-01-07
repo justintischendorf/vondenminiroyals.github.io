@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="Bilder/logo.png" />
+    <script src="script.js" async></script>
+    <link rel="stylesheet" href="general_settings.css">
+    <link rel="stylesheet" href="sidebar.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="dropdown.css">
+    <link rel="stylesheet" href="dropdown2.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <title>Von den Mini Royals</title>
+</head>
+
+<body>
+    <header>
+        <div class="dropdown">
+            <ul>
+                <li><a href="awurf.html">A-Wurf</a></li>
+                <li><a href="bwurf.html">B-Wurf</a></li>
+                <li><a href="cwurf.html">C-Wurf</a></li>
+                <li><a href="dwurf.html">D-Wurf</a></li>
+                <li><a href="ewurf.html">E-Wurf</a></li>
+                <li><a href="fwurf.html">F-Wurf</a></li>
+                <li><a href="gwurf.html">G-Wurf</a></li>
+                <li><a href="hwurf.html">H-Wurf</a></li>
+                <li><a href="iwurf.html">I-Wurf</a></li>
+                <li><a href="jwurf.html">J-Wurf</a></li>
+                <li><a href="kwurf.html">K-Wurf</a></li>
+                <li><a href="lwurf.html">L-Wurf</a></li>
+            </ul>
+        </div>
+        <div class="header_content">
+            <nav>
+                <span onclick="showSidebar()" class="material-symbols-rounded">menu</span>
+                <ul>
+                    <li class="active"><a href="index.html">Startseite</a></li>
+                    <li><a href="rattler.html">Prager Rattler</a></li>
+                    <li><a href="rudel.html">Das Rudel</a></li>
+                    <li><a href="galerie.html">Galerie</a></li>
+                    <li id="dropdown" onclick="showDropdown()">
+                        <p>Würfe</p>
+                    </li>
+                    <li><a href="verkauf.html">Welpen aktuell zu verkaufen</a></li>
+                </ul>
+                <ul class="sidebar">
+                    <span onclick="closeSidebar()" class="material-symbols-rounded">close</span>
+                    <li class="active"><a href="index.html">Startseite</a></li>
+                    <li><a href="rattler.html">Prager Rattler</a></li>
+                    <li><a href="rudel.html">Das Rudel</a></li>
+                    <li><a href="galerie.html">Galerie</a></li>
+                    <li><a href="verkauf.html">Welpen aktuell zu verkaufen</a></li>
+                    <li id="dropdown2" onclick="showDropdown2()">
+                        <p>Würfe &nbsp; ﹀</p>
+                    </li>
+                    <div class="dropdown2">
+                        <li><a href="awurf.html">A</a></li>
+                        <li><a href="bwurf.html">B</a></li>
+                        <li><a href="cwurf.html">C</a></li>
+                        <li><a href="dwurf.html">D</a></li>
+                        <li><a href="ewurf.html">E</a></li>
+                        <li><a href="fwurf.html">F</a></li>
+                        <li><a href="gwurf.html">G</a></li>
+                        <li><a href="hwurf.html">H</a></li>
+                        <li><a href="iwurf.html">I</a></li>
+                        <li><a href="jwurf.html">J</a></li>
+                        <li><a href="kwurf.html">K</a></li>
+                        <li><a href="lwurf.html">L</a></li>
+                    </div>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section>
+        <div class="welcome_info">
+            <h1>Herzlich Wilkommen liebe Rattler Freunde</h1>
+            <p>Wir sind eine kleine Familienzucht und leben in dem schönen Sonneberg in Thüringen. In unserem Haus mit
+                Garten leben wir mit unseren Kindern und dem Rudel der Mini-Royals. Unsere Welpen sind bestens
+                sozialisiert und lernen bei uns schon vieles kennen, damit Sie einen guten Start in ihr weiteres Leben
+                haben. Gute Pflege und Ernährung sowie tierärztliche Kontrollen schon im frühen Welpenalter sind uns
+                sehr wichtig. Die Gesundheit steht an oberster Stelle und deshalb sind unsere Zuchthunde getestet! PL
+                0/0, Herz o.B. , Scherengebiss 6/6. Desweiteren besitzen sie eine DNA Gesundheitsauswertung (210fach),
+                Farb- und Fellanalyse. Wir beraten Sie vor und nach dem Welpenkauf und freuen uns auch ab und zu mal was
+                vom Leben unserer Welpen in Ihrer neuen Familie zu erfahren. Viel Freude beim Aufenthalt auf unserer
+                Seite wünscht Familie Tischendorf.</p>
+            <p id="gesetz">Wir sind eine vom Landratsamt/Veterinäramt Sonneberg geprüfte und anerkannte Zuchtstätte nach
+                §11 Tierschutzgesetz.</p>
+        </div>
+        <div class="contact">
+            <p><strong>EMail:</strong>PRMR@gmx.de</p>
+            <p><strong>Handy:</strong>0152-09245066 <br>(gerne auch per WhatsApp)</p>
+            <p><strong>Facebook:</strong>Prager Rattler Mini Royals</p>
+            <p><strong>Instagram:</strong>pragerrattlerminiroyals</p>
+            <p>Hier finden Sie immer aktuelle Bilder und Videos unseres Rudels und auch der Welpen.</p>
+        </div>
+        <div class="logo">
+            <img src="Bilder/logo.png">
+        </div>
+    </section>
+    <footer>
+        <div class="footer_links">
+            <a href="impressum.html">Impressum</a><br>
+            <a href="datenschutz.html">Datenschutzerklärung</a>
+            <p>Copyright 2023 "Von den Mini Royals"</p>
+        </div>
+    </footer>
+</body>
+
+</html>

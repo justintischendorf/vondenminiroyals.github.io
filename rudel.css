@@ -1,0 +1,138 @@
+section {
+    display: flex;
+    max-width: 100vw;
+    flex-wrap: wrap;
+}
+
+.rudel_images {
+    text-align: center;
+}
+
+.rudel_images img {
+    width: 350px;
+    border-radius: 300px;
+    border: 10px double white;
+    box-shadow: 0 2px 30px white;
+}
+
+.rudel_section1,
+.rudel_section2,
+.rudel_section3,
+.rudel_section4 {
+    background-image: linear-gradient(to top, #fdcbf1 0%, #fdcbf1 1%, #e6dee9 100%);
+    width: 100%;
+    display: block;
+    padding-bottom: 5%;
+}
+
+.rudel_section5,
+.rudel_section6 {
+    background-image: linear-gradient(to top, #a1c4fd 0%, #c2e9fb 100%);
+    width: 100%;
+    display: block;
+    padding-bottom: 5%;
+}
+
+.rudel_section1 h1,
+.rudel_section3 h1,
+.rudel_section5 h1,
+.rudel_section2 h1,
+.rudel_section4 h1,
+.rudel_section6 h1 {
+    width: 100%;
+    font-family: var(--second_font);
+    font-size: 43px;
+    text-align: center;
+    padding: 5% 0 0 0;
+}
+
+.rudel_section1 h2,
+.rudel_section3 h2,
+.rudel_section5 h2,
+.rudel_section2 h2,
+.rudel_section4 h2,
+.rudel_section6 h2 {
+    font-family: var(--main_font);
+    font-style: oblique;
+    font-size: 28px;
+    padding: 5% 10% 0 10%;
+}
+
+.rudel_section1 p,
+.rudel_section3 p,
+.rudel_section5 p,
+.rudel_section2 p,
+.rudel_section4 p,
+.rudel_section6 p {
+    font-family: var(--main_font);
+    font-size: 22px;
+    margin: 0 10%;
+}
+
+@media (min-width: 200px) and (max-width: 735px) {
+    .rudel_images img {
+        width: 200px;
+        border-radius: 300px;
+        border: 6px double white;
+        margin: 5% 0;
+    }
+
+    .rudel_section1 h1,
+    .rudel_section3 h1,
+    .rudel_section5 h1,
+    .rudel_section2 h1,
+    .rudel_section4 h1,
+    .rudel_section6 h1 {
+        font-size: 23px;
+        padding-top: 5vh;
+    }
+
+    .rudel_section1 h2,
+    .rudel_section3 h2,
+    .rudel_section5 h2,
+    .rudel_section2 h2,
+    .rudel_section4 h2,
+    .rudel_section6 h2 {
+        font-size: 19px;
+        padding-top: 5vh;
+    }
+
+    .rudel_section1 p,
+    .rudel_section3 p,
+    .rudel_section5 p,
+    .rudel_section2 p,
+    .rudel_section4 p,
+    .rudel_section6 p {
+        font-size: 17px;
+    }
+}
+
+@media (min-width: 736px) and (max-width: 1200px) {
+    .headline {
+        font-size: 47px;
+    }
+
+    .rudel_images img {
+        width: 300px;
+        border-radius: 300px;
+        border: 8px double white;
+    }
+
+    .rudel_section1 h2,
+    .rudel_section3 h2,
+    .rudel_section5 h2,
+    .rudel_section2 h2,
+    .rudel_section4 h2,
+    .rudel_section6 h2 {
+        font-size: 36px;
+    }
+
+    .rudel_section1 p,
+    .rudel_section3 p,
+    .rudel_section5 p,
+    .rudel_section2 p,
+    .rudel_section4 p,
+    .rudel_section6 p {
+        font-size: 19px;
+    }
+}

@@ -1,0 +1,143 @@
+section {
+    display: flex;
+    max-width: 100vw;
+    flex-wrap: wrap;
+}
+
+.impressum_text1 {
+    display: block;
+    background-image: linear-gradient(to top left, #fdcbf1 0%, #fdcbf1 1%, #e6dee9 100%);
+    width: 100%;
+    padding: 5% 0;
+}
+
+.impressum_text1 p {
+    font-family: var(--main_font);
+    line-height: 1.5em;
+    font-size: 22px;
+    text-align: left;
+    margin: 0 10%;
+}
+
+.impressum_text2 {
+    background-image: linear-gradient(to top right, #a1c4fd 0%, #c2e9fb 100%);
+    width: 100%;
+    display: block;
+}
+
+.impressum_text2 h1 {
+    font-family: var(--main_font);
+    font-size: 41px;
+    margin: 5%;
+    text-align: center;
+}
+
+.impressum_text2 p {
+    font-family: var(--main_font);
+    line-height: 1.5em;
+    font-size: 22px;
+    text-align: justify;
+    margin: 5% 10%;
+}
+
+.impressum_text3 {
+    background-image: linear-gradient(to top left, #fdcbf1 0%, #fdcbf1 1%, #e6dee9 100%);
+    width: 100%;
+    display: block;
+}
+
+.impressum_text3 h1 {
+    font-family: var(--main_font);
+    font-size: 41px;
+    margin: 5%;
+    text-align: center;
+}
+
+.impressum_text3 p {
+    font-family: var(--main_font);
+    line-height: 1.5em;
+    font-size: 22px;
+    text-align: justify;
+    margin: 5% 10%;
+}
+
+.impressum_text4 {
+    background-image: linear-gradient(to top right, #a1c4fd 0%, #c2e9fb 100%);
+    width: 100%;
+    display: block;
+}
+
+.impressum_text4 p {
+    font-family: var(--main_font);
+    line-height: 1.5em;
+    font-size: 22px;
+    text-align: justify;
+    margin: 5% 10%;
+}
+
+.impressum_text4 h1 {
+    font-family: var(--main_font);
+    font-size: 41px;
+    margin: 5%;
+    text-align: center;
+}
+
+@media (min-width: 200px) and (max-width: 735px) {
+    .impressum_text1 p {
+        font-size: 17px;
+    }
+
+    .impressum_text2 h1 {
+        font-size: 26px;
+    }
+
+    .impressum_text2 p {
+        font-size: 17px;
+    }
+
+    .impressum_text3 h1 {
+        font-size: 26px;
+    }
+
+    .impressum_text3 p {
+        font-size: 17px;
+    }
+
+    .impressum_text4 h1 {
+        font-size: 26px;
+    }
+
+    .impressum_text4 p {
+        font-size: 17px;
+    }
+}
+
+@media (min-width: 736px) and (max-width: 1200px) {
+    .impressum_text1 p {
+        font-size: 19px;
+    }
+
+    .impressum_text2 h1 {
+        font-size: 36px;
+    }
+
+    .impressum_text2 p {
+        font-size: 19px;
+    }
+
+    .impressum_text3 h1 {
+        font-size: 36px;
+    }
+
+    .impressum_text3 p {
+        font-size: 19px;
+    }
+
+    .impressum_text4 h1 {
+        font-size: 36px;
+    }
+
+    .impressum_text4 p {
+        font-size: 19px;
+    }
+}

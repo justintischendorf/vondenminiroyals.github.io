@@ -1,0 +1,182 @@
+.info {
+    background-image: linear-gradient(to top left, #fdcbf1 0%, #fdcbf1 1%, #e6dee9 100%);
+    background-position: 9;
+    padding-bottom: 5vh;
+}
+
+#info_head {
+    background-image: linear-gradient(to bottom, #a1c4fd 0%, #c2e9fb 100%);
+    padding-bottom: 0;
+}
+
+#info_head p{
+    padding-bottom: 0;
+}
+
+.info h1 {
+    font-family: var(--second_font);
+    font-size: 43px;
+    text-align: center;
+    padding: 5% 10% 0 10%;
+}
+
+.info h2 {
+    font-family: var(--main_font);
+    font-size: 28px;
+    padding: 5% 10% 0 10%;
+    text-align: center;
+}
+
+.info p {
+    font-family: var(--main_font);
+    font-size: 22px;
+    margin: 0 10%;
+    padding: 5vh 0;
+    text-align: center;
+}
+
+figure {
+    display: flex;
+    background-image: linear-gradient(to top, #a1c4fd 0%, #c2e9fb 100%);
+    padding: 0 10%;
+    padding-top: 5vh;
+    padding-bottom: 3vh;
+}
+
+.four figure {
+    flex-wrap: wrap;
+}
+
+figure img {
+    width: 400px;
+    border: 10px double white;
+    box-shadow: 0 2px 30px white;
+    margin-bottom: 1vh;
+}
+
+.fig {
+    width: 50%;
+    text-align: center;
+}
+
+figcaption {
+    font-family: var(--main_font);
+    font-size: 22px;
+}
+
+#pic_center .fig {
+    padding-bottom: 3vh;
+    width: 100%;
+}
+
+#red {
+    color: red;
+}
+
+#orange {
+    color: orange;
+}
+
+#yellow {
+    color: rgb(179, 179, 48);
+}
+
+#green {
+    color: green;
+}
+
+#blue {
+    color: blue;
+}
+
+#indigo {
+    color: indigo;
+}
+
+#violet {
+    color: rgb(236, 90, 236);
+}
+
+@media (min-width: 200px) and (max-width: 735px) {
+    .info {
+        padding-bottom: 0;
+    }
+
+    .info h1 {
+        font-size: 23px;
+        padding-top: 4vh;
+    }
+
+    .info h2 {
+        font-size: 19px;
+    }
+
+    .info p {
+        font-size: 17px;
+        padding-top: 2vh;
+        padding-bottom: 3vh;
+    }
+
+    #info_head p {
+        padding: 2vh 0
+    }
+
+    figcaption {
+        font-size: 17px;
+        padding-bottom: 2vh;
+        margin-bottom: 0;
+    }
+
+    figure img {
+        width: 150px;
+    }
+
+    figure {
+        display: block;
+    }
+
+    .fig {
+        width: 100%;
+        text-align: center;
+    }
+
+    #pic_center .fig {
+        padding-bottom: 0;
+    }
+
+    #padding p {
+        padding: 0;
+    }
+}
+
+@media (min-width: 736px) and (max-width: 1650px) {
+    .fig {
+        width: 100%;
+        text-align: center;
+        padding: 2vh 0;
+    }
+
+    figure img {
+        width: 300px;
+    }
+
+    .info {
+        padding-bottom: 5vh;
+    }
+
+    .info h1 {
+        font-size: 41px;
+    }
+
+    .info h2 {
+        font-size: 30px;
+    }
+
+    .info p {
+        font-size: 19px;
+    }
+
+    figcaption {
+        font-size: 19px;
+    }
+}

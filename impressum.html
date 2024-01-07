@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="Bilder/logo.png" />
+    <script src="script.js" async></script>
+    <link rel="stylesheet" href="general_settings.css">
+    <link rel="stylesheet" href="sidebar.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="impressum.css">
+    <link rel="stylesheet" href="dropdown.css">
+    <link rel="stylesheet" href="dropdown2.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <title>Von den Mini Royals</title>
+</head>
+
+<body>
+    <header>
+        <div class="dropdown">
+            <ul>
+                <li><a href="awurf.html">A-Wurf</a></li>
+                <li><a href="bwurf.html">B-Wurf</a></li>
+                <li><a href="cwurf.html">C-Wurf</a></li>
+                <li><a href="dwurf.html">D-Wurf</a></li>
+                <li><a href="ewurf.html">E-Wurf</a></li>
+                <li><a href="fwurf.html">F-Wurf</a></li>
+                <li><a href="gwurf.html">G-Wurf</a></li>
+                <li><a href="hwurf.html">H-Wurf</a></li>
+                <li><a href="iwurf.html">I-Wurf</a></li>
+                <li><a href="jwurf.html">J-Wurf</a></li>
+                <li><a href="kwurf.html">K-Wurf</a></li>
+                <li><a href="lwurf.html">L-Wurf</a></li>
+            </ul>
+        </div>
+        <div class="header_content">
+            <nav>
+                <span onclick="showSidebar()" class="material-symbols-rounded">menu</span>
+                <ul>
+                    <li><a href="index.html">Startseite</a></li>
+                    <li><a href="rattler.html">Prager Rattler</a></li>
+                    <li><a href="rudel.html">Das Rudel</a></li>
+                    <li><a href="galerie.html">Galerie</a></li>
+                    <li id="dropdown" onclick="showDropdown()">
+                        <p>Würfe</p>
+                    </li>
+                    <li><a href="verkauf.html">Welpen aktuell zu verkaufen</a></li>
+                </ul>
+                <ul class="sidebar">
+                    <span onclick="closeSidebar()" class="material-symbols-rounded">close</span>
+                    <li><a href="index.html">Startseite</a></li>
+                    <li><a href="rattler.html">Prager Rattler</a></li>
+                    <li><a href="rudel.html">Das Rudel</a></li>
+                    <li><a href="galerie.html">Galerie</a></li>
+                    <li><a href="verkauf.html">Welpen aktuell zu verkaufen</a></li>
+                    <li id="dropdown2" onclick="showDropdown2()">
+                        <p>Würfe &nbsp; ﹀</p>
+                    </li>
+                    <div class="dropdown2">
+                        <li><a href="awurf.html">A</a></li>
+                        <li><a href="bwurf.html">B</a></li>
+                        <li><a href="cwurf.html">C</a></li>
+                        <li><a href="dwurf.html">D</a></li>
+                        <li><a href="ewurf.html">E</a></li>
+                        <li><a href="fwurf.html">F</a></li>
+                        <li><a href="gwurf.html">G</a></li>
+                        <li><a href="hwurf.html">H</a></li>
+                        <li><a href="iwurf.html">I</a></li>
+                        <li><a href="jwurf.html">J</a></li>
+                        <li><a href="kwurf.html">K</a></li>
+                        <li><a href="lwurf.html">L</a></li>
+                    </div>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section>
+        <div class="impressum_text1">
+            <p>verantwortlich für diesen Internetauftritt:</p>
+            <p>Carolin und Justin Tischendorf</p>
+            <p>Julius-Heß-Straße 11</p>
+            <p>96515 Sonneberg</p><br>
+            <p>Dieser Internetauftritt unterliegt folgenden Bedingungen:</p>
+        </div>
+        <div class="impressum_text2">
+            <h1>Inhalt des Onlineangebotes</h1>
+            <p>Der Autor übernimmt keinerlei Gewähr für die Aktualität, Korrektheit, Vollständigkeit oder Qualität der
+                bereitgestellten Informationen. Haftungsansprüche gegen den Autor, welche sich auf Schäden materieller
+                oder ideeller Art beziehen, die durch die Nutzung oder Nichtnutzung der dargebotenen Informationen bzw.
+                durch die Nutzung fehlerhafter und unvollständiger Informationen verursacht wurden, sind grundsätzlich
+                ausgeschlossen, sofern seitens des Autors kein nachweislich vorsätzliches oder grob fahrlässiges
+                Verschulden vorliegt. Alle Angebote sind freibleibend und unverbindlich. Der Autor behält es sich
+                ausdrücklich vor, Teile der Seiten oder das gesamte Angebot ohne gesonderte Ankündigung zu verändern, zu
+                ergänzen, zu löschen oder die Veröffentlichung zeitweise oder endgültig einzustellen.</p>
+        </div>
+        <div class="impressum_text3">
+            <h1>Urheber- und Kennzeichenrecht</h1>
+            <p>Der Autor ist bestrebt, in allen Publikationen die Urheberrechte der verwendeten Bilder, Grafiken,
+                Tondokumente, Videosequenzen und Texte zu beachten. Alle innerhalb des Internetangebotes genannten und
+                ggf. durch Dritte geschützten Marken- und Warenzeichen unterliegen uneingeschränkt den Bestimmungen des
+                jeweils gültigen Kennzeichenrechts und den Besitzrechten der jeweiligen eingetragenen Eigentümer. Allein
+                aufgrund der bloßen Nennung ist nicht der Schluss zu ziehen, dass Markenzeichen nicht durch Rechte
+                Dritter geschützt sind! Das Copyright für veröffentlichte, vom Autor selbst erstellte Objekte bleibt
+                allein beim Autor der Seiten. Eine Vervielfältigung oder Verwendung solcher Bilder, Grafiken,
+                Tondokumente, Videosequenzen und Texte in anderen elektronischen oder gedruckten Publikationen ist ohne
+                ausdrückliche schriftliche Zustimmung des Autors nicht gestattet.</p>
+        </div>
+        <div class="impressum_text4">
+            <h1>Verweise und Links</h1>
+            <p>Bei direkten oder indirekten Verweisen auf fremde Webseiten ("Hyperlinks"), die außerhalb des
+                Verantwortungsbereiches des Autors liegen, würde eine Haftungsverpflichtung ausschließlich in dem Fall
+                in Kraft treten, in dem der Autor von den Inhalten Kenntnis hat und es ihm technisch möglich und
+                zumutbar wäre, die Nutzung im Falle rechtswidriger Inhalte zu verhindern. Der Autor erklärt hiermit
+                ausdrücklich, dass zum Zeitpunkt der Linksetzung keine illegalen Inhalte auf den zu verlinkenden Seiten
+                erkennbar waren. Auf die aktuelle und zukünftige Gestaltung, die Inhalte oder die Urheberschaft der
+                gelinkten/verknüpften Seiten hat der Autor keinerlei Einfluss. Deshalb distanziert er sich hiermit
+                ausdrücklich von allen Inhalten aller gelinkten /verknüpften Seiten, die nach der Linksetzung verändert
+                wurden. Diese Feststellung gilt für alle innerhalb des eigenen Internetangebotes gesetzten Links und
+                Verweise sowie für Fremdeinträge in vom Autor eingerichteten Gästebüchern, Diskussionsforen und
+                Mailinglisten. Für illegale, fehlerhafte oder unvollständige Inhalte und insbesondere für Schäden, die
+                aus der Nutzung oder Nichtnutzung solcherart dargebotener Informationen entstehen, haftet allein der
+                Anbieter der Seite, auf welche verwiesen wurde, nicht derjenige, der über Links auf die jeweilige
+                Veröffentlichung lediglich verweist.</p>
+        </div>
+    </section>
+    <footer>
+        <div class="footer_links">
+            <a href="impressum.html">Impressum</a><br>
+            <a href="datenschutz.html">Datenschutzerklärung</a>
+            <p>Copyright 2023 "Von den Mini Royals"</p>
+        </div>
+    </footer>
+</body>
+
+</html>

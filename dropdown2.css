@@ -1,0 +1,25 @@
+.dropdown2 {
+    display: none;
+}
+
+.dropdown2_active {
+    display: flex;
+}
+
+#dropdown2 p {
+    color: var(--secondary_text_color);
+    text-decoration: none;
+    font-size: 20px;
+    font-family: var(--main_font);
+    cursor: pointer;
+}
+
+.dropdown2 a {
+    font-size: 18px;
+    padding: 0 2vw;
+}
+
+.dropdown2_active a {
+    font-size: 18px;
+    padding: 0 2vw;
+}
